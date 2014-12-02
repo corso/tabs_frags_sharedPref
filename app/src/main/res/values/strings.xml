@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tabs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_close">Close</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="first_frag">Save texts</string>
+    <string name="second_frag">Load texts</string>
+    <string name="main_frag">Main Frag</string>
+
+</resources>

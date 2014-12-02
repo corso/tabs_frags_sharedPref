@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pignote.tabs.FirstFragment"
+    android:id="@+id/first_fragment_container"
+    android:background="#ffcdcdcd">
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/second_frag"
+        android:id="@+id/second_frag_text_view"
+        android:textSize="40dp"
+        android:background="#ffcdcdcd" />
+
+    <EditText
+        android:layout_width="285dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="80dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_gravity="top|left"
+        android:background="#ffffffff" />
+
+    <ImageButton
+        android:layout_marginTop="80dp"
+        android:layout_width="78dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="right|top"
+        android:src="@android:drawable/ic_input_add"
+        android:onClick="loadText"
+        android:background="#ac3c6ece" />
+
+    <EditText
+        android:layout_width="285dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="180dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_gravity="top|left"
+        android:background="#ffffffff" />
+
+    <ImageButton
+        android:layout_marginTop="180dp"
+        android:layout_width="78dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="right|top"
+        android:src="@android:drawable/ic_input_add"
+        android:onClick="loadText"
+        android:background="#ac3c6ece" />
+
+    <EditText
+        android:layout_width="285dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="280dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_gravity="top|left"
+        android:background="#ffffffff" />
+
+    <ImageButton
+        android:layout_marginTop="280dp"
+        android:layout_width="78dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton3"
+        android:layout_gravity="right|top"
+        android:src="@android:drawable/ic_input_add"
+        android:onClick="loadText"
+        android:background="#ac3c6ece" />
+
+</FrameLayout>
